@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    background-color: black;
+    color: beige;
+    list-style-type: none;
+    text-transform: capitalize;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+    align-items: center;
+    display: flex;
+}
+
+li:last-of-type{
+    align-self: flex-end;
+}
+
+li:first-of-type{
+    align-self: flex-start;
+}
+
+main{
+    height: 500px;
+    background-color: black;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 20px;
+    justify-content: center;
+    align-items: center;
+}

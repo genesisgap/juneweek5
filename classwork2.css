@@ -1,51 +1,33 @@
-main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 150px);
-    grid-template-areas: 
-    "caleb caleb clara"
-    "caleb caleb paul"
-    "caleb caleb samuel"
-    "daniel yomi emma"
-    "daniel yomi emma"
-    "sarah sarah emma"
-    "sarah sarah emma"
-    "gideon kamso kayode"
-    "genesis genesis genesis"
-   
-    ;
-    gap: 15px;
-}
-
-article:nth-of-type(1) {
-    grid-area: sa;
-
-}
-article:nth-of-type(2) {
-    grid-area: emma;
-
-}
-article:nth-of-type(3) {
-    grid-area: yomi;
-
-}
-article:nth-of-type(4) {
-    grid-area: sarah;
-
-}
-article:nth-of-type(5) {
-    grid-area: paul;
-
-}
-article:nth-of-type(6) {
-    grid-area: caleb;
-
-}
-article:nth-of-type(7) {
-    grid-area: gideon;
-}
-
-article {
+section {
     background-color: aqua;
 }
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 150px);
+    grid-template-areas: 
+    "a a"
+    "a a"
+    "b c"
+    "d c"
+    "d c"
+    "e e";
+    gap: 10px;
+}
+
+section:nth-of-type(1) {
+    grid-area: a;
+}
+section:nth-of-type(2) {
+    grid-area: b;
+}
+section:nth-of-type(3) {
+    grid-area: c;
+}
+section:nth-of-type(4) {
+    grid-area: d;
+}
+section:nth-of-type(5) {
+    grid-area: e;
+}
