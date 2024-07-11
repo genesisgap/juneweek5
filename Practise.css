@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+  
+.grid {
+    display: grid;
+    background:#e60c0c;
+    padding:1em;
+}
+
+
+/* .grid > div{
+    background:#e60c0c;
+    padding:1em;
+} */
