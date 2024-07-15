@@ -1,0 +1,127 @@
+body {
+    background-image: url(trees.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+h1 {
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+ #box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 15px;
+    background: rgb(216, 202, 11);
+    text-align: center;
+    border-radius: 300px;
+    
+    
+}
+#box2 {
+    border: 5px solid white;
+    width: 250px;
+    height: 250px;
+    font-size: 18px;
+    background: rgb(37, 3, 129);
+    text-align: center;
+    color: white;
+ 
+} 
+
+ .box{
+        width: 100px;
+        height: 100px;
+        border: 1px solid;
+        font-size: 30px;
+        text-align: center;
+        background-color: tomato;
+        float: left;
+        margin: 2px;
+        border-color: greenyellow;
+        background-size: 30px;
+
+}
+
+p{
+    clear: left;
+}
+
+
+a:link {
+    color: chartreuse;
+}
+
+a:visited{
+    color: gray;
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: yellow;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button:active{
+    background-color: brown;
+}
+
+li:nth-child(1){
+    background-color: yellow;
+}
+li:nth-child(odd){
+    background-color: blue;
+}
+li:nth-child(even){
+    background-color: red;
+}
+
+li:nth-child(3n){
+    background-color: rgb(173, 230, 187);
+ }
+
+li:nth-child(2n{
+    background-color: rgb(23, 75, 7);
+ } 
+
+
+h1 {
+    text-shadow: 5px 5px 5px gray;
+   
+}
+
+h1:hover{
+    box-shadow: 5px 5px 5px red;
+} 
+
+.fa-twitter{
+    color: aqua;
+    
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-house-chimney{
+    color: blue;
+}

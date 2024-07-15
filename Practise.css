@@ -5,14 +5,76 @@
 }
 
   
-.grid {
-    display: grid;
-    background:#e60c0c;
-    padding:1em;
+body {
+    background-color: white;
+    
+   
 }
 
+h1 {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: double;
+    border-right-style: double;
+    border-bottom-color: blue;
+    border-top-color: rgb(70, 173, 11);
+    border-left-color: rgb(155, 194, 14);
+    border-left-width: 10px;
+   
+    color: black;
+    font-family: "Press Start 2p", sans-serif;
+    
+   
+     
+}
 
-/* .grid > div{
-    background:#e60c0c;
-    padding:1em;
-} */
+p:first-of-type{
+    background-color: gray;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+p:nth-of-type(2) {
+    background-color: gray;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+}
+p:nth-of-type(3) {
+    background-color: gray;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 30px;
+}
+p:last-of-type{
+    background-color: white;
+     font-family: "consolas", sans-serif;
+     border-style: outset;
+     border-width: 5px;
+     border-color: gold;
+     border-radius: 30px;
+     padding: 15px;
+}
+
+#p1 {
+    
+   
+}
+#p3 {
+   
+}
+
+.odd {
+    color: rgb(216, 213, 13);
+}
+
+.even {
+    color: rgb(11, 48, 230);
+}
+
+/* .press-start-2p-regular, h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+   */

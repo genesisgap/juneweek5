@@ -681,6 +681,11 @@ video {
   clear: none;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1754,9 +1759,9 @@ video {
   border-style: none;
 }
 
-.bg-\[\#11ff25\] {
+.bg-\[\#612cf1\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 255 37 / var(--tw-bg-opacity));
+  background-color: rgb(97 44 241 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -1764,9 +1769,27 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#612cf1\] {
+.bg-\[\#035214\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(97 44 241 / var(--tw-bg-opacity));
+  background-color: rgb(3 82 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#cab32d86\] {
+  background-color: #cab32d86;
+}
+
+.bg-\[\#e2211386\] {
+  background-color: #e2211386;
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1879,9 +1902,22 @@ video {
      object-fit: scale-down;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-40 {
+  padding: 10rem;
+}
+
 .py-40 {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+.py-80 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
 
 .text-left {
@@ -2028,6 +2064,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
 .underline {
