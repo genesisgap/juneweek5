@@ -2,9 +2,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+     /* height: 100vh -This ensures that the body element takes up the entire height of the browser window, which is useful for vertically centering content within the page. */
     height: 100vh;
     margin: 0;
-    background: linear-gradient(red, rgb(217, 241, 217), blue);
+    background: linear-gradient(rgb(32, 178, 197), rgb(217, 241, 217), blue);
   }
   
   .spinner {
@@ -22,6 +23,8 @@ body {
 p {
     font-size: 30px;
     color: rgb(43, 12, 71);
+    font-style: italic;
+    font-weight: bold;
 
 }
   
@@ -48,9 +51,11 @@ p {
   }
   
   @keyframes Loading {
+    /* from - which start from 0% degrees */
     0% {
       transform: rotate(0deg);
     }
+    /* to - which ends at 360% degrees */
     100% {
       transform: rotate(360deg);
     }
